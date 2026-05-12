@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/varshinismitha/MyMavenAnsibleWebApp.git'
+                git branch: 'master', url: 'https://github.com/varshinismitha/MavenAnsibleWebApp.git'
             }
         }
 
